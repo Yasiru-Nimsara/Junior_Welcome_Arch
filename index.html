@@ -88,7 +88,7 @@
 
         continue_btn.addEventListener("click", () => {
             if (userLat && userLng) {
-                const site_link = randomLink + `?lat=${userLat}&lng=${userLng}`;
+                const site_link = `randomLink?lat=${userLat}&lng=${userLng}`;
                 window.open(site_link, "_blank");
             } else {
                 const site_link = randomLink;
@@ -99,5 +99,6 @@
 </body>
 
 </html>
+
 
 
